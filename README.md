@@ -35,3 +35,8 @@ Here are the Postman screenshots for the APIs:
 
 **GET /api/recent**
 [![Postman Screenshot 4](./images/postman_screenshot_4.png)](./images/postman_screenshot_4.png)
+
+## Vercel Hosted Link
+
+The project is deployed on Vercel. You can access the API using the following link:
+[https://market-next-c6ha-zamg1o5a2-coderlakshya.vercel.app/](https://market-next-c6ha-zamg1o5a2-coderlakshya.vercel.app/)
