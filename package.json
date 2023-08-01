@@ -9,7 +9,6 @@
     "lint": "next lint",
     "test": "jest"
   },
-  "type": "commonjs",
   "dependencies": {
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
