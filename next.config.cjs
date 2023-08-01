@@ -1,17 +1,14 @@
 module.exports = {
     webpack: (config, { isServer }) => {
+      // For font files
       if (!isServer) {
         config.module.rules.push({
-          test: /\.(js|mjs|jsx|ts|tsx)$/,
+          test: /\.(woff|woff2|eot|ttf|otf)$/,
           use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['next/babel'],
-            },
+            loader: 'url-loader',
           },
         });
       }
-  
       return config;
     },
   };
